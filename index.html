@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><span class="text-primary">Pelis</span>Marvel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="#Marvel" class="nav-link">Marvel</a></li>
+                    <li class="nav-item"><a href="#Top" class="nav-link">Top</a></li>
+                    <li class="nav-item"><a href="#Equipo" class="nav-link">Equipo</a></li>
+                    <li class="nav-item"><a href="#Contactanos" class="nav-link">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="slide 1"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-label="slide 2"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-label="slide 3"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="3" aria-label="slide 4"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="4" aria-label="slide 5"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="5" aria-label="slide 6"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/spiderman.jpg" class="d-block w-100" alt="Spider Man">
+                <div class="carousel-caption">
+                    <h5>Spider Man</h5>
+                    <p>Científico, vigilante, profesor, fotógrafo y superhéroe. Posee fuerza, velocidad, durabilidad y
+                        agilidad sobrehumanas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/iron-man.jpg" class="d-block w-100" alt="Iron Man">
+                <div class="carousel-caption">
+                    <h5>Iron Man</h5>
+                    <p>Tony Stark es un genio, multimillonario, playboy y filántropo, cofundador de los Vengadores.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Capitana_Marvel.jpg" class="d-block w-100" alt="Capitana Marvel">
+                <div class="carousel-caption">
+                    <h5>Capitana Marvel</h5>
+                    <p>La Capitana Carol Danvers es una ex piloto de la Fuerza Aérea que obtiene poderes cósmicos tras
+                        un accidente.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Thor.jpg" class="d-block w-100" alt="Thor">
+                <div class="carousel-caption">
+                    <h5>Thor</h5>
+                    <p>Thor Odinson es el Dios del Trueno, anterior Rey de Nuevo Asgard y miembro fundador de
+                        los Vengadores. Cuando su conducta irresponsable amenazó a los Asgardianos a entrar en
+                        otra guerra con los Gigantes de Hielo, fue despojado de su poder y desterrado en la
+                        Tierra por su padre, Odín.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Hulk.jpeg" class="d-block w-100" alt="Hulk">
+                <div class="carousel-caption">
+                    <h5>Hulk</h5>
+                    <p>Hulk es un enorme ser humanoide de piel verde, corpulento y musculoso que tiene una gran
+                        fortaleza física. Su alter ego es el Dr. Robert Bruce Banner, un físico físicamente
+                        débil, socialmente retraído y reservado, las dos personalidades existentes como
+                        independientes y con resentimiento de la otra</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/black-widow.jpg" class="d-block w-100" alt="Black widow">
+                <div class="carousel-caption">
+                    <h5>Black widow</h5>
+                    <p> La primera y más conocida Viuda Negra, es una agente rusa entrenada como espía, artista
+                        marcial y francotiradora, y equipada con un arsenal de armas de alta tecnología, que
+                        incluye un par de armas energéticas montadas en la muñeca y apodada "Piquete de la
+                        Viuda".</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="about section-padding">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="about-img">
+                    <img src="img/Logo_Marvel.jpg" class="img-fluid" alt="Logo Marvel">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                <div class="about-text text-white">
+                    <h2 id="Marvel">¿Que es Marvel?</h2>
+                    <p>Marvel es una de las editoriales de cómics más populares y exitosas del mundo. Fundada en 1939
+                        como Timely Publications.Tras varios años este se ha convertido en una marca global conocida por
+                        sus icónicos personajes de superheroes y sus historias interesantes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2 id="Top">Top películas Marvel</h2>
+                        <p>Descubre las películas más taquilleras del universo Marvel.</p>
+                        <a href="https://www.businessinsider.es/todas-peliculas-marvel-ordenadas-recaudacion-taquilla-1163412" target="_blank" title="Mas información">Mas información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/Capitana_Marvel.jpg" class="img-fluid" alt="Capitana Marvel">
+                            </div>
+                            <h3><strong>10. 'Capitana Marvel' (2019)</strong></h3>
+                            <p class="lead">
+                                <strong>Taquilla mundial:</strong> 1.128 millones de dólares.<br>
+                                <strong>Taquilla en EEUU:</strong> 426,8 millones de dólares.<br>
+                                <strong>Presupuesto:</strong> 160 millones de dólares.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text center bg-dark pb-2">
+                            <div class="card-body text-white">
+                                <div class="img-area mb-4">
+                                    <img src="img/Spider-Man_FFH.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <h3><strong>9.'Spider-Man:Lejos de casa'(2019)</strong></h3>
+                                <p class="lead">
+                                    <strong>Taquilla mundial:</strong>1.130 millones de dolarés.<br>
+                                    <strong>Taquilla en EEUU:</strong>390,5 millones de dolarés.<br>
+                                    <strong>Primer fin de semana en taquilla:</strong>92,6 millones de
+                                    dolarés.<br>
+                                    <strong>Presupuesto:</strong>160 millones de dolarés.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-light text center bg-dark pb-2">
+                    <div class="card-body text-white">
+                        <div class="img-area mb-4">
+                            <img src="img/Civil_War.jpeg" class="img-fluid" alt="">
+                        </div>
+                        <h3><strong>8.'Captain America:Civil War'(2016)</strong></h3>
+                        <p class="lead">
+                            <strong>Taquilla mundial:</strong>1.150 millones de dolarés.<br>
+                            <strong>Taquilla en EEUU:</strong>408 millones de dolarés.<br>
+                            <strong>Primer fin de semana en taquilla:</strong>179 millones de dolarés.<br>
+                            <strong>Presupuesto:</strong>250 millones de dolarés.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/Iron_Man_3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3><strong>7.'Iron Man 3'</strong>(2013)</h3>
+                            <p class="lead">
+                                <strong>Taquilla mundial:</strong>1.200 millones de dolarés.<br>
+                                <strong>Taquilla en EEUU:</strong>409 millones de dolarés.<br>
+                                <strong>Primer fin de semana en taquilla:</strong>174 millones de dolarés.<br>
+                                <strong>Presupuesto:</strong>200 millones de dolarés.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text center bg-dark pb-2">
+                            <div class="card-body text-white">
+                                <div class="img-area mb-4">
+                                    <img src="img/Black_Panther.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <h3><strong>6.'Black Panther'(2018)</strong></h3>
+                                <p class="lead">
+                                    <strong>Taquilla mundial:</strong>1.300 millones de dolarés.<br>
+                                    <strong>Taquilla en EEUU:</strong>700 millones de dolarés.<br>
+                                    <strong>Primer fin de semana en taquilla:</strong>202 millones de
+                                    dolarés.<br>
+                                    <strong>Presupuesto:</strong>200 millones de dolarés.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card text-light text center bg-dark pb-2">
+                                <div class="card-body text-white">
+                                    <div class="img-area mb-4">
+                                        <img src="img/Era_de_Ultron.jpeg" class="img-fluid" alt="">
+                                    </div>
+                                    <h3><strong>5.'Avengers:la era de Ultrón'(2015)</strong></h3>
+                                    <p class="lead">
+                                        <strong>Taquilla mundial:</strong>1.400 millones de dolarés.<br>
+                                        <strong>Taquilla en EEUU:</strong>459 millones de dolarés.<br>
+                                        <strong>Primer fin de semana en taquilla:</strong>191,3 millones de
+                                        dolarés.<br>
+                                        <strong>Presupuesto:</strong>250 millones de dolarés.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-4">
+                                <div class="card text-light text center bg-dark pb-2">
+                                    <div class="card-body text-white">
+                                        <div class="img-area mb-4">
+                                            <img src="img/Vengadores.jpg" class="img-fluid" alt="">
+                                        </div>
+                                        <h3><strong>4.'Vengadores'(2012)</strong></h3>
+                                        <p class="lead">
+                                            <strong>Taquilla mundial:</strong>1.500 millones de dolarés.<br>
+                                            <strong>Taquilla en EEUU:</strong>623,4 millones de dolarés.<br>
+                                            <strong>Primer fin de semana en taquilla:</strong>207,4 millones de
+                                            dolarés.<br>
+                                            <strong>Presupuesto:</strong>220 millones de dolarés.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-12 col-lg-4">
+                                    <div class="card text-light text center bg-dark pb-2">
+                                        <div class="card-body text-white">
+                                            <div class="img-area mb-4">
+                                                <img src="img/Spider_Man_No_Way_Home.jpg" class="img-fluid" alt="">
+                                            </div>
+                                            <h3><strong>3.'Spider-Man:No Way Home'</strong></h3>
+                                            <p class="lead">
+                                                <strong>Taquilla mundial:</strong>1.900 millones de dolarés.<br>
+                                                <strong>Taquilla en EEUU:</strong>814 millones de dolarés.<br>
+                                                <strong>Primer fin de semana en taquilla:</strong>260,14
+                                                millones de dolarés.<br>
+                                                <strong>Presupuesto:</strong>200 millones de dolarés.!
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-12 col-lg-4">
+                                        <div class="card text-light text center bg-dark pb-2">
+                                            <div class="card-body text-white">
+                                                <div class="img-area mb-4">
+                                                    <img src="img/Infinity_War.jpeg" class="img-fluid" alt="">
+                                                </div>
+                                                <h3><strong>2.'Avengers: Infinity War'</strong></h3>
+                                                <p class="lead">
+                                                    <strong>Taquilla mundial:</strong>2.005 millones de
+                                                    dolarés.<br>
+                                                    <strong>Taquilla en EEUU:</strong>678,8 millones de
+                                                    dolarés.<br>
+                                                    <strong>Primer fin de semana en taquilla:</strong>257,7
+                                                    millones de dolarés.<br>
+                                                    <strong>Presupuesto:</strong>321 millones de dolarés.
+                                                </p>            
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-12 col-lg-4">
+                                            <div class="card text-light text center bg-dark pb-2">
+                                                <div class="card-body text-white">
+                                                    <div class="img-area mb-4">
+                                                        <img src="img/End_Game.jpeg" class="img-fluid" alt="">
+                                                    </div>
+                                                    <h3><strong>1.'Avengers: Endgame'(2019)</strong></h3>
+                                                    <p class="lead">
+                                                        <strong>Taquilla mundial:</strong>2.800 millones de
+                                                        dolarés.<br>
+                                                        <strong>Taquilla en EEUU:</strong>858.4 millones de
+                                                        dolarés.<br>
+                                                        <strong>Primer fin de semana en taquilla:</strong>357
+                                                        millones de dolarés.<br>
+                                                        <strong>Presupuesto:</strong>356 millones de dolarés.
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+
+
+    </section>
+
+    <section class="team section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2 id="Equipo">Equipo</h2>
+                        <p>Estos son los integrantes:</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/ususario.png" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Diaz Grifas Julio Jesus</h3>
+                            <p class="card-text">
+                            Estudiante de programación<br>
+                            Curso su carrera en el Instituto Sise
+                            </p>
+                            <p class="socials">
+                                <a href="https://www.x.com" target="_blank">
+                                    <i class="bi bi-twitter text-white mx-1"></i>
+                                </a>
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <i class="bi bi-facebook text-white mx-1"></i>
+                                </a>
+                                <a href="https://www.linkedin.com" target="_blank">
+                                    <i class="bi bi-linkedin text-white mx-1"></i>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <i class="bi bi-instagram text-white mx-1"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/ususario.png" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Inocente Cardenas Edú Alejandro</h3>
+                            <p class="card-text">
+                                Estudiante de programación<br>
+                                Curso su carrera en el Instituto Sise
+                            </p>
+                            <p class="socials">
+                                <a href="https://www.x.com" target="_blank">
+                                    <i class="bi bi-twitter text-white mx-1"></i>
+                                </a>
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <i class="bi bi-facebook text-white mx-1"></i>
+                                </a>
+                                <a href="https://www.linkedin.com" target="_blank">
+                                    <i class="bi bi-linkedin text-white mx-1"></i>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <i class="bi bi-instagram text-white mx-1"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact section-padding">
+
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2 id="Contactanos">Contactanos</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div calss="col-md-12 p-0 pt-4 pb-4">
+                    <form action="#" class="bg-dark p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Correo">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btbn-lg btn-block mt-3">Enviar</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">©Pelis Marvel 2024.Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
